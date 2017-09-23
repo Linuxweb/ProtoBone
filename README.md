@@ -6,7 +6,7 @@
 
 Protobone is a dead simple, responsive boilerplate to kickstart any responsive web projects.
 
-Check out [Protobone here](https://goo.gl/n4Nb2m/) for Documentation and Demo
+Check out [Protobone here](https://goo.gl/n4Nb2m) for Documentation and Demo
 
 # What's in the project?
 
