@@ -1,0 +1,97 @@
+/*
+* Protobone Framework | v1.0.0 | MIT | July 4th, 2017
+* Copyright 2017, Selwyn Orren @ Linuxweb
+* Adapted from Skeleton Grid by Dave Gamache
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 04/07/2017
+*/
+
+.bg_white		{ background-color: #ffffff; }
+.bg_grey		{ background-color: #f9f9f9; }
+.bg_grey2		{ background-color: #f1f1f1; }
+.bg_greydark	{ background-color: #495052;}
+.bg_greydark2	{ background-color: #404547;}
+.bg_green		{ background-color: #6fc191; }
+.bg_blue		{ background-color: #74cee4; }
+.bg_violet		{ background-color: #c389ce; }
+.bg_orange		{ background-color: #ec774b; }
+.bg_red			{ background-color: #e16c6c; }
+.bg_pink		{ background-color: #efa7c9; }
+.bg_yellow		{ background-color: #edbf47; }
+.bg_greendark	{ background-color: #6ab78a; }
+.bg_bluedark	{ background-color: #6fc4d9; }
+.bg_violetdark	{ background-color: #ac7ab5; }
+.bg_orangedark	{ background-color: #df764e; }
+.bg_reddark		{ background-color: #c86969; }
+.bg_yellowdark	{ background-color: #e0b84e; }
+
+.bg_gradient	{
+				background: #74cee4; /* Old browsers */
+				background: -moz-linear-gradient(left,  #74cee4 0%, #66ce9c 16%, #edbf47 32%, #ec774b 49%, #74cee4 65%, #66ce9c 83%, #edbf47 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%,#74cee4), color-stop(16%,#66ce9c), color-stop(32%,#edbf47), color-stop(49%,#ec774b), color-stop(65%,#74cee4), color-stop(83%,#66ce9c), color-stop(100%,#edbf47)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(left,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(left,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(left,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* IE10+ */
+				background: linear-gradient(to right,  #74cee4 0%,#66ce9c 16%,#edbf47 32%,#ec774b 49%,#74cee4 65%,#66ce9c 83%,#edbf47 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74cee4', endColorstr='#edbf47',GradientType=1 ); /* IE6-9 */
+				}
+
+.white		{ color: #ffffff; }
+.grey		{ color: #f9f9f9; }
+.grey2		{ color: #f1f1f1; }
+.greydark	{ color: #495052; }
+.greydark2	{ color: #404547; }
+.green		{ color: #6fc191; }
+.blue		{ color: #74cee4; }
+.violet		{ color: #c389ce; }
+.orange		{ color: #ec774b; }
+.red		{ color: #e16c6c; }
+.pink		{ color: #efa7c9; }
+.yellow		{ color: #edbf47; }
+.greendark	{ color: #6ab78a; }
+.bluedark	{ color: #6fc4d9; }
+.violetdark	{ color: #ac7ab5; }
+.orangedark	{ color: #df764e; }
+.reddark	{ color: #c86969; }
+.yellowdark	{ color: #e0b84e; }
+
+.button-white { color: #6f6f6f !important; background-color: #ffffff !important; border-color: #ffffff !important; }
+.button-white:hover { color: #222 !important; background-color: #ffffff !important; border-color: #6f6f6f !important; }
+
+.button-grey { color: #6f6f6f !important; background-color: #f1f1f1 !important; border-color: #f1f1f1 !important; }
+.button-grey:hover { color: #6f6f6f !important; background-color: #CCCCCC !important; border-color: #CCCCCC !important; }
+
+.button-greydark { color: #fff !important; background-color: #495052 !important; border-color: #495052 !important; }
+.button-greydark:hover { color: #fff !important; background-color: #2E3233 !important; border-color: #2E3233 !important; }
+
+.button-green { color: #fff !important; background-color: #6fc191 !important; border-color: #6fc191 !important; }
+.button-green:hover { color: #fff !important; background-color: #61A87E !important; border-color: #61A87E !important; }
+
+.button-blue { color: #fff !important; background-color: #74cee4 !important; border-color: #74cee4 !important; }
+.button-blue:hover { color: #fff !important; background-color: #66B6CA !important; border-color: #66B6CA !important; }
+
+.button-violet { color: #fff !important; background-color: #c389ce !important; border-color: #c389ce !important; }
+.button-violet:hover { color: #fff !important; background-color: #AC78B5 !important; border-color: #AC78B5 !important; }
+
+.button-orange { color: #fff !important; background-color: #ec774b !important; border-color: #ec774b !important; }
+.button-orange:hover { color: #fff !important; background-color: #D46B43 !important; border-color: #D46B43 !important; }
+
+.button-red { color: #fff !important; background-color: #e16c6c !important; border-color: #e16c6c !important; }
+.button-red:hover { color: #fff !important; background-color: #C75F5F !important; border-color: #C75F5F !important; }
+
+.button-pink { color: #fff !important; background-color: #efa7c9 !important; border-color: #efa7c9 !important; }
+.button-pink:hover { color: #fff !important; background-color: #d796b4 !important; border-color: #d796b4 !important; }
+
+.button-yellow { color: #fff !important; background-color: #edbf47 !important; border-color: #edbf47 !important; }
+.button-yellow:hover { color: #fff !important; background-color: #D4AB3F !important; border-color: #D4AB3F !important; }
+
+a:hover.grey		{ color: #CCCCCC; }
+a:hover.greydark	{ color: #2E3233; }
+a:hover.green		{ color: #61A87E; }
+a:hover.blue		{ color: #66B6CA; }
+a:hover.violet		{ color: #AC78B5; }
+a:hover.orange		{ color: #D46B43; }
+a:hover.red			{ color: #C75F5F; }
+a:hover.pink		{ color: #efa7c9; }
+a:hover.yellow		{ color: #D4AB3F; }
