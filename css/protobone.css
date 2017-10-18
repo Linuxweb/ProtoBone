@@ -47,7 +47,7 @@
 .column,
 .columns {
 	float: left;
-	width: calc(100% - 1em);
+	width: calc(100% - 1.4em);
 	min-height: 1px;
 	margin-left: 0.7em;
 	margin-right: 0.7em;
