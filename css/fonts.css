@@ -7,73 +7,56 @@
 * 04/07/2017
 */
 @import url(//fonts.googleapis.com/css?family=Raleway:400,300,600);
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(//use.fontawesome.com/releases/v5.9.0/css/all.css);
 @import url(//d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?c2sn1i);
 
-.soc {
-    overflow:hidden;
-    margin:0; padding:0;
-    list-style:none;
+.socicon {
+		overflow:hidden;
+		margin:0; padding:0;
+		list-style:none;
 }
 
-.soc li {
-    display:inline-block;
-    *display:inline;
-    zoom:1;
+.socicon li {
+		display:inline-block;
+		*display:inline;
+		zoom:1;
 }
 
-.soc li a {
-    font-family:si!important;
-    font-style:normal;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    box-sizing:border-box;
+.socicon li a {
+		font-family:si!important;
+		font-style:normal;
+		font-weight:400;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+		-webkit-box-sizing:border-box;
+		-ms-box-sizing:border-box;
+		-o-box-sizing:border-box;
+		box-sizing:border-box;
 
-    -o-transition:.1s;
-    -ms-transition:.1s;
-    -moz-transition:.1s;
-    -webkit-transition:.1s;
-    transition:.1s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+		-o-transition:.1s;
+		-webkit-transition:.1s;
+		transition:.1s;
+		-webkit-transition-property: transform;
+		-webkit-transition-property: -webkit-transform;
+		transition-property: -webkit-transform;
+		-o-transition-property: transform;
+		transition-property: transform;
+		transition-property: transform, -webkit-transform;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
 
-    overflow:hidden;
-    text-decoration:none;
-    text-align:center;
-    display:block;
-    position: relative;
-    z-index: 1;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    font-size: 22px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    margin-right: 6px;
-    color: #B6B6B6;
-    background-color: #222;
-}
-
-.soc-facebook:before {
-    content:'\e028';
-}
-.soc-twitter:before {
-    content:'\e08d';
-}
-.soc-googleplus:before {
-    content:'\e038';
-}
-.soc-linkedin:before {
-    content:'\e04c';
-}
-.soc-mail:before {
-    content:'\e050';
+		overflow:hidden;
+		text-decoration:none;
+		text-align:center;
+		display:block;
+		position: relative;
+		z-index: 1;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 22px;
+		border-radius: 100px;
+		margin-right: 6px;
+		color: #B6B6B6;
+		background-color: #222;
 }

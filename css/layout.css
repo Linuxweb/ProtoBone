@@ -61,20 +61,14 @@ there.
 */
 
 /*
-The following media queries are calculated using the universal em measurement
-and are geared toward the base grid as setup in the skeleton.css file. As a base its using 16px
-Example
-=============
-30em = 480px
-60em = 960px
-So we are targeting all three core viewpoints for each typical device.
+General selectors and styles designed to make the site look good on DESKTOP screens go here.
+But they affect all devices, and must be overridden by media queries targeting
+INCREASINGLY SMALLER screens
 */
 
-/* Mobile Devices */
-@media screen and (max-width: 30em) {}
+/* Phablet Devices - Max Width: 767px (768px) */
+@media screen and (max-width: 47.9375em) {}
 
-/* Phablet to Desktop */
-@media screen and (min-width: 30.0625em) and (max-width: 60em) {}
+/* Mobile Devices - Max Width: 479px (480px) */
+@media screen and (max-width: 29.9375em) {}
 
-/* Desktop to HD Desktop */
-@media screen and (min-width: 60.0625em) {}

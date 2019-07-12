@@ -44,7 +44,7 @@ ProtoBase/
 │   ├── config.php
 │   └── functions.php
 └── js/
-    ├── application.php
+    ├── application.js
     └── jquery.min.js
 ```
 ---
