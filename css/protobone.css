@@ -219,6 +219,7 @@ input[type="button"]:hover {
 
 .button:disabled,
 .button:disabled:hover,
+.button.disabled,
 button[disabled]:active, button[disabled],
 input[type="button"][disabled]:active,
 input[type="button"][disabled],
