@@ -505,7 +505,7 @@ blockquote,
 dl,
 figure,
 table,
-p,
+p:not(:last-child),
 ul,
 ol,
 form {
